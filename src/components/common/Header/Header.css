@@ -1,0 +1,70 @@
+/*头部黑色导航*/
+#lg_hbar,#lg_hnav{min-width:1200px;}
+#lg_hbar{background: #333;}
+#lg_hbar .inner{width: 1308px;margin: 0 auto;}
+.lg_hbar_l a,.lg_hbar_r li a,.unick{margin-top: 7px;display:block;float: left;}
+.lg_app{padding: 0 12px 0 27px;background:url(/assets/img/app_icon_0495d1d.png) no-repeat 10px 0 ;color: #08d7a2;line-height: 15px;}
+.lg_os,.lg_hbar_r li a,.unick{color: #c4c3c3;padding: 0 12px;border-left:1px solid #c4c3c3;cursor: pointer;}
+.lg_os:hover{color: white;}
+.lg_hbar_r li{float: left;position: relative;height: 30px;}
+.lg_hbar_r li a:hover,.lg_hbar_r li .unick:hover{color: white;}
+.lg_hbar_r li a.msg_dropdown{border-left: none;}
+.lg_hbar_r li.user_dropdown{padding-right: 15px;}
+.user_dropdown em{position: absolute;top: 12px;right: 10px;}
+.user_dropdown ul{position: absolute;top: 30px;right:0;z-index: 999;padding-bottom: 10px;background: #333;}
+.user_dropdown li{float: none;width: 80px;}
+.user_dropdown li a{color: #c4c3c3;display: block;line-height: 30px;width: 100%;border-left:none ;margin: 0;padding: 0;text-align: center;}
+
+
+/*头部黑色导航end*/
+/*头部白色导航*/
+#lg_hnav{
+	height: 54px;
+	background:#fafafa;
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #e5e5e5;
+	}
+#lg_hnav .inner{width: 1200px;margin: 0 auto;}
+#lg_hnav .lg_hnav_l{width: 260px;}
+#lg_hnav .lg_logo{display: block;float: left;margin-top: 10px;}
+#lg_hnav .lg_logo h1{
+	width: 97px;
+	height: 34px;
+	overflow: hidden;
+	background: url(/assets/img/logo_1c5763c.png) no-repeat;
+	margin: 0;}
+#lg_hnav .suggestCity{
+	float: left;
+	height: 44px;
+	line-height: 44px;
+	padding: 10px 0 0 12px;
+}
+#lg_hnav .suggestCity strong{
+	margin-right: 8px;
+	font-weight: 400;
+	font-size: 18px;
+}
+#lg_hnav .suggestCity em{
+	font-size: 12px;
+	font-style: normal;
+	color: #999999;
+	cursor: pointer;
+}
+#lg_hnav .lg_hnav_warp li{
+	float: left;
+	margin: 0 16px;
+}
+#lg_hnav .lg_hnav_warp li a{
+	display: block;
+	line-height: 53px;
+	padding: 0 5px;
+	font-size: 18px;
+	color: #999999;
+}
+#lg_hnav .lg_hnav_warp li a.current,#lg_hnav .lg_hnav_warp li a:hover{
+	border-bottom: 2px solid #00b38a;
+	color: #333333;
+}
+.user_dropdown li a:hover{background: #000000;}
+
+/*头部白色导航end*/

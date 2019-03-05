@@ -1,0 +1,9 @@
+.home_banner{position: relative;margin-left:360px;padding-top:20px;height: 346px;overflow: hidden;}
+.swiper-container {
+    width:840px;
+    height: 346px;
+  }
+
+.swiper-container img,.swiper-container a{display: block;width: 840px;height: 346px;}
+.swiper-button-next{background: url(./img/banner_arrow_right_highlight_8f1f320.png) no-repeat !important;}
+.swiper-button-prev{background: url(./img/banner_arrow_left_80dbc0e.png) no-repeat !important;}
