@@ -1,49 +1,21 @@
-import React,{ Component}from 'react';
-import './Home.css'
-import Search from '@/components/Home/Search/Search'
-import Menu from '@/components/Home/Menu/Menu'
-import Slider from '@/components/Home/Slider/Slider'
-import JobTitle from '@/components/Home/JobTitle/JobTitle'
-import Gscard from '@/components/common/Gscard/Gscard'
-import Jobcard from '@/components/common/Jobcard/Jobcard'
-import Partner from '@/components/Home/Partner/Partner'
-import GgTitle from '@/components/common/GgTitle/GgTitle'
-import LoadmoreBtn from '@/components/common/LoadmoreBtn/LoadmoreBtn'
+import {connect} from 'react-redux';
+import UI from './HomeUI';
+import action from '@/store/home/action'
 
-class Home extends Component{
-
-    render(){
-
-        return (
-            <>
-                {/* 头部搜索 */}
-                <Search></Search>
-                <div className="contain_body">
-                    <div className="clearfix">
-                        <Menu></Menu>
-                        <Slider></Slider>
-                        
-                    </div> 
-                    {/*热门岗位 */}
-                    <JobTitle></JobTitle>
-                    <Jobcard></Jobcard>
-                    <LoadmoreBtn src="/mylist"/>
-                    {/* 热门公司 */}
-                    <GgTitle title="热门公司"/>
-                    <Gscard></Gscard>
-                    <LoadmoreBtn src="/gongsi"/>
-                    {/* 回到顶部 */}
-                    <a href="#" className="backtop"></a>
-                    {/* 友情链接 */}
-                    <GgTitle title="友情链接"/>
-                    <Partner></Partner>
-                </div>     
-            
-            </>
-
-
-        )
+const mapStateToProps = (state) =>{
+    console.log (state)
+    return {
+        list:state.homeStore.list
     }
 }
+const mapDispatchToProps = (dispatch) =>{
+    return {
+        requestJobData () {
+            dispatch(action.requestJobData())
+        }
+    }
+}
+
+const Home = connect(mapStateToProps,mapDispatchToProps)(UI);
 
 export default Home
