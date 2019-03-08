@@ -1,4 +1,5 @@
 import React,{ Component}from 'react';
+import {Link, Route, Switch} from 'react-router-dom';
 import './Reg.css'
 class Com extends Component{
 
@@ -17,7 +18,7 @@ class Com extends Component{
                             
                         </div>
                         <div className="btn">
-                            <a href="#" >去找工作</a>
+                            <Link to="/userapp/common" >去找工作</Link>
                         </div>
                     </div>
                     <div className="divider fl">

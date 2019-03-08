@@ -68,26 +68,32 @@ class Lcon extends Component {
             code: data.data.code
           })
 
-          this.openNotificationWithIcon('success')
+          this.openNotificationWithIcon('info')
         })
       } else if (data.data.data === 1) {
         this.openNotificationWithIcon('error')
       }
     })
   }
-  // 验证码弹窗显示
+  // 弹窗显示
   openNotificationWithIcon = (type) => {
     if (type === 'success') {
       notification[type]({
-        message: '您的验证码（10秒后消失）',
-        description: this.state.code,
-        duration: 10
+        message: '注册成功！',
+        description: '用户：' + this.state.tel,
+        duration: 4
       })
     } else if (type === 'error') {
       notification[type]({
         message: '用户已存在',
         description: '该手机号已注册过，请直接登陆',
         duration: 4
+      })
+    } else if (type === 'info') {
+      notification[type]({
+        message: '您的验证码（10秒后消失）',
+        description: this.state.code,
+        duration: 10
       })
     }
   };
@@ -108,11 +114,19 @@ class Lcon extends Component {
 
   // 注册按钮
   regBtn() {
-    console.log(this.state.tel, this.state.password, this.state.code)
-    
+    console.log(this)
+    api.register(this.state.tel, this.state.password, this.state.code).then(data => {
+      if (data.data.data === 1) {
+        this.openNotificationWithIcon('success')
+        this.props.history.push('/userapp/login')
+      }
+    }).catch(error => {
+      console.log(error)
+    })
   }
 
   render() {
+    console.log(this)
     return (
       <div className="middle">
         <div className="contain clearfix">

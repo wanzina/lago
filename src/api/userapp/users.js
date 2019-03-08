@@ -23,11 +23,21 @@ const api = {
     })
   },
   // 注册
-  register(tel,code,password){
+  register(tel,password,code){
     return new Promise((resolve,reject) => {
-      axios.post(baseUrl + '/api/register',{tel,code,password}).then(data => {
+      axios.post(baseUrl + '/api/register',{tel,password,code}).then(data => {
         resolve(data)
       }).catch(error => {
+        reject(error)
+      })
+    })
+  },
+  //登陆
+  login(tel,password){
+    return new Promise((resolve,reject)=>{
+      axios.post(baseUrl+'/api/login',{tel,password}).then(data=> {
+        resolve(data)
+      }).catch(error=>{
         reject(error)
       })
     })
