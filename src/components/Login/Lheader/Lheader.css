@@ -1,0 +1,25 @@
+/*头部*/
+.lheader .header_border{height:3px;background: #00b38a;}
+@media (min-width:1200px ) {
+	.header_bg{width:1200px ;}
+}
+.lheader  .header_bg{height: 54px;margin: 0 auto;}
+.lheader  .header_bg .logo{display: block;margin-top: 10px;width: 222px;height: 34px;}
+.lheader  .hd_right{ height: 54px;line-height: 54px;position: relative;}
+.lheader  .hd_right a{color: #999999;margin-top: 15px;}
+.lheader  .show_qrcode_app{padding: 0 15px;border-right: 1px solid #e6e6e6;position: relative;}
+.lheader  .qrcode_app{
+	position: absolute;
+	display: block;
+	top: 25px;
+	right: 20px;
+	width: 128px;
+	height: 128px;
+	padding: 11px;
+	background: white;
+	z-index: 999;
+	box-shadow: 0 0 5px rgba(204,204,204,0.6);
+	}
+.lheader .icon_app{display: block;width: 10px;height: 15px;position: absolute;top: 2px;}
+.lheader .link_login{padding-left: 15px;}
+/*headerend*/

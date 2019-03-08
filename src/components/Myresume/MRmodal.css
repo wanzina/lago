@@ -1,0 +1,241 @@
+.ant-modal label {
+    line-height:30px;
+    display:inline-block;
+}
+.ant-modal {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+            font-feature-settings: 'tnum';
+    position: relative;
+    top: 100px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 24px;
+  }
+  .ant-modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: auto;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ant-modal-title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+.ant-modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  .ant-modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .ant-modal-close-x {
+    display: block;
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 56px;
+    text-align: center;
+    text-transform: none;
+    text-rendering: auto;
+  }
+  .ant-modal-close:focus,
+  .ant-modal-close:hover {
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+  }
+  .ant-modal-header {
+    padding: 16px 24px;
+    color: rgba(0, 0, 0, 0.65);
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+  }
+  .ant-modal-confirm .ant-modal-header {
+    display: none;
+  }
+  .ant-modal-body {
+    padding: 24px;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  .ant-modal-confirm .ant-modal-body {
+    padding: 32px 32px 24px;
+  }
+  .ant-modal-footer {
+    padding: 10px 16px;
+    text-align: right;
+    border-top: 1px solid #e8e8e8;
+    border-radius: 0 0 4px 4px;
+  }
+  .ant-modal-footer button + button {
+    margin-bottom: 0;
+    margin-left: 8px;
+  }
+  .ant-modal.zoom-enter,
+.ant-modal.zoom-appear {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  opacity: 0;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.ant-btn {
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+  }
+  .ant-btn > .anticon {
+    line-height: 1;
+  }
+  .ant-btn,
+  .ant-btn:active,
+  .ant-btn:focus {
+    outline: 0;
+  }
+  .ant-btn:not([disabled]):hover {
+    text-decoration: none;
+  }
+  .ant-btn:not([disabled]):active {
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .ant-btn.disabled,
+  .ant-btn[disabled] {
+    cursor: not-allowed;
+  }
+  .ant-btn.disabled > *,
+  .ant-btn[disabled] > * {
+    pointer-events: none;
+  }
+  .ant-btn-primary {
+    color: #fff!important;
+    background-color: #00b38a;
+    border-color: #00b38a;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  }
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff!important;
+  background-color: #0f7e64;
+  border-color: #0f7e64;
+}
+.ant-btn:hover{
+    border-color: #00b38a;
+    color: #00b38a
+}
+
+/* 输入框 */
+.ant-input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+            font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .ant-input::-moz-placeholder {
+    color: #bfbfbf;
+    opacity: 1;
+  }
+  .ant-input:-ms-input-placeholder {
+    color: #bfbfbf;
+  }
+  .ant-input::-webkit-input-placeholder {
+    color: #bfbfbf;
+  }
+  .ant-input:hover {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+  }
+  .ant-input:focus {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+            box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }

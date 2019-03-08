@@ -1,0 +1,19 @@
+/*banner*/
+.it_content{width: 1120px;padding: 0 30px;margin: 0 auto;position: relative;z-index: 66;}
+.it_content .ant-carousel{width: 100%;height: 100%;}
+.it_content .swiper-slide{float:left; width: 160px!important;height: 220px!important;margin: 10px 0 10px 54px!important;}
+.it_content .panel{width: 142px;height: 202px;background-color:rgba(255, 255, 255, 0.8);padding: 9px;}
+.it_content .panel p{padding: 0 3px;margin-top: 13px;text-align: center;line-height: 22px;}
+.it_content .swiper-slide img{display: block;width: 142px;height: 142px}
+#company_banner .banner_content h3{font-size: 30px;text-shadow: 0px 3px 9px rgba(0,0,0,0.25);color:white;padding: 25px 0 20px;height: 42px;text-align: center;}
+#company_banner .slick-dots{
+    bottom:-10px;
+    z-index:111;
+}
+#company_banner .slick-dots li button{
+    background:#fff!important;
+    
+}
+#company_banner .slick-dots li{
+    background:#fff!important;
+}

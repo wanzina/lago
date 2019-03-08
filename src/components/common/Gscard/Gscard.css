@@ -1,0 +1,18 @@
+/*热门公司*/
+.ad-companys p{margin-bottom:0!important;}
+.ad-companys{width: inherit;}
+.ad-companys .ad-company-list{width: 1216px;}
+.ad-companys .ad-company-list li{float:left;width:288px ;height: 270px;margin: 16px 16px 0 0;border: 1px solid #EEE;box-sizing: border-box;}
+.ad-companys .ad-company-list li.wordCut ,.ad-companys .ad-company-list  p.wordCut{text-overflow:ellipsis;overflow: hidden;white-space:nowrap;}
+.ad-companys .aci_top{margin: 0 13px;padding: 20px 0 14px;border-bottom: 1px dashed #E0E0E0;text-align: center;}
+.ad-companys .aci_top .company-logo img{display: inline-block;width: 80px;height: 80px;}
+.ad-companys .aci_top .company-name{margin-top: 13px;font-size: 16px;color: #333;height: 22px;line-height: 22px;}
+.ad-companys .aci_top .company-name a{color: #333;font-size: 16px;}
+.ad-companys .aci_top .indus_stage{height: 22px;margin-top: 3px;color: #999999;line-height: 22px;}
+.ad-companys .aci_top .advantage{line-height: 22px;}
+.ad-companys .aci_btm .bottom_item{margin-top: 17px;text-align: center;display: block;}
+.ad-companys .aci_btm .aci_btmi_1,.ad-companys .aci_btm .aci_btmi_2{width: 90px;border-right:1px dashed #EEE ;}
+.ad-companys .aci_btm .aci_btmi_3{width: 104px;}
+.ad-companys .ad-company-list .bottom_item .green{color: #00B38A;}
+.ad-companys .ad-company-list .bottom_item .gray{color: #999999;font-size: 12px;margin-top: 4px;}
+.ad-companys .ad-company-list .bottom_item .gray:hover{color: #00B38A;}

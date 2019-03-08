@@ -1,0 +1,47 @@
+#error .i_error {
+    position: relative;
+    /*width: 654px;*/
+    width: 34.0625%;
+    /*height: 467px;*/
+    margin: 67px auto 0;	
+    /*background: url(/lagouhtml/blocked_404.png) 0 0 no-repeat;*/
+}
+#error .i_logo {
+    position: absolute;
+    /*top: 116px;*/
+    top: 24.8394%;
+    /*left: 68px;*/
+    left: 9.785933%;
+    /*width: 110px;*/
+    width: 16.819572%;
+    /*height: 41px;*/
+    /*background: url(/lagouhtml/lagou_logo.png) 0 0 no-repeat;*/
+}
+#error .tip {
+    margin-top: 47px;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #333;
+}
+#error .btn {
+    margin-top: 30px;
+    text-align: center;
+}
+#error .btn a {
+    padding: 0 18px;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #777;
+}
+#error .btn a + a {
+    border-left: 1px solid #d5dadf;
+}
+#error .btn a:hover {
+    color: #00b38a;
+    /*text-decoration: underline;*/
+}
+#error .btn .green {
+    color: #00b38a;
+}

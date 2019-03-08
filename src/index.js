@@ -4,14 +4,16 @@ import {HashRouter as Router,Route,Switch} from 'react-router-dom'
 import App from '@/layout/App';
 import UserApp from '@/layout/UserApp'
 import * as serviceWorker from './serviceWorker';
-import '@/index.css'
-import '@/assets/css/normalize.css'
-
+import '@/index.css'//公共
+import '@/assets/css/normalize.css'//样式重置
+//import 'antd/dist/antd.css'//ant-ui css
+import Error from '@/pages/Error/Error'
 ReactDOM.render(
     <Router>
         <Switch>
             <Route path='/userapp' component = {UserApp}/>
-            <Route path='/' component = {App}/>
+            <Route path='/'  component = {App}/>
+            <Route component = {Error}/>
         </Switch>
     </Router>
  , document.getElementById('root'));

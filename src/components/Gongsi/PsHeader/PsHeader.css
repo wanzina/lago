@@ -1,0 +1,11 @@
+.positionHead{margin-bottom: 20px;}
+.filter-wrapper{margin-top: 35px;}
+.details,.sub_filter{padding: 8px 0;background: #fafafa;border: 1px solid #ededed;}
+.details li{padding: 4px 0;color: #555555;}
+.details li span.title,.sub_filter li span.title{font-weight: 600;margin-left: 15px;margin-right: -5px;}
+.details li a,.details li span,.sub_filter li span,.sub_filter li a{padding: 4px 8px;cursor: pointer;display: inline-block;height: 14px;line-height: 14px;margin-right: 5px;color: #333;}
+.details li a.active,.sub_filter li a.active{background: #00B38A;color: white;}
+.details li a:hover,.sub_filter li a:hover{background: #00B38A;color: white;}
+.sub_filter{margin-top: 13px;position: relative;}
+.sub_filter .nterval_assess{width: 144px;margin-right: 18px;text-align: right;cursor: default;height: 23px;line-height: 23px;}
+.sub_filter .nterval_assess i{display: inline-block;width: 18px;height: 15px;margin: -3px 3px 0;background: url(/img/check_f5603cd.png);vertical-align: middle;}

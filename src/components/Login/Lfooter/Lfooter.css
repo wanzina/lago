@@ -1,0 +1,33 @@
+.lfooter{
+	padding: 20px;
+}
+.lfooter ul{
+	width: 1024px;
+	margin: 0 auto;
+}
+.lfooter ul>li:last-child{
+	margin-right: 0;
+}
+.lfooter li{
+	float: left;
+	margin-right: 65px;
+}
+.lfooter li img{
+	float: left;
+}
+.lfooter li div{
+	float: right;
+	margin-left:15px ;
+}
+.lfooter .title{
+	font-size: 18px;
+	line-height: 20px;
+	height: 20px;
+	color: #333333;
+}
+.lfooter .content{
+	font-size: 14px;
+	line-height: 32px;
+	height: 32px;
+	color: #999999;
+}

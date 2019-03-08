@@ -1,0 +1,248 @@
+.jobdetail {
+    .position-head {
+      background-color: #f2f5f4;
+      padding: 30px 0 11px;
+      width: 100%;
+      min-width: 1024px;
+  
+      .position-content {
+        position: relative;
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+  
+        .position-content-l {
+          max-width: 696px;
+  
+          .job-name {
+            margin: 0 0 13px;
+  
+            .company {
+              margin: -2px 0 8px 0;
+              font-size: 14px;
+              color: #555;
+              position: relative;
+              left: 2px;
+            }
+  
+            .name {
+              position: relative;
+              display: inline-block;
+              height: 36px;
+              font-size: 36px;
+              color: #333;
+              line-height: 36px;
+            }
+  
+            .marEdit {
+              position: relative;
+              display: inline-block;
+            }
+          }
+  
+          .job_request {
+            margin-top: 2px;
+            font-size: 18px;
+            color: #555;
+  
+            p {
+              margin-bottom: 8px;
+  
+              .salary {
+                color: #fd5f39;
+              }
+            }
+  
+            .publish_time {
+              padding-top: 10px;
+              font-size: 14px;
+              color: #999;
+            }
+  
+            .labels {
+              float: left;
+              height: 22px;
+              margin-right: 8px;
+              padding: 0 10px;
+              line-height: 22px;
+              background-color: #fff;
+              color: #70797b;
+              font-size: 12px;
+              border-radius: 10px;
+            }
+          }
+  
+        }
+  
+        .position-content-r {
+          max-width: 328px;
+          margin-top: 12px;
+  
+          .jl {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            color: #00b38a;
+          }
+  
+          .position-deal {
+            margin-left: 31px;
+            display: flex;
+            position: relative;
+  
+            .jd_collection {
+              display: inline-block;
+              height: 44px;
+              width: 104px;
+              line-height: 44px;
+              text-align: center;
+              border: 1px solid #00b38a;
+              border-radius: 3px;
+              background-color: #ebf0ef;
+              cursor: pointer;
+              font-size: 14px;
+              color: #00b38a;
+            }
+  
+            .resume-deliver {
+              position: relative;
+              display: inline-block;
+  
+              .s-send-btn {
+                display: inline-block;
+                margin-left: 17px;
+                padding: 0 30px;
+                border: 1px solid #00b38a;
+                border-radius: 3px;
+                height: 44px;
+                line-height: 44px;
+                font-size: 18px;
+                background-color: #00b38a;
+                color: #fff;
+                cursor: pointer;
+              }
+            }
+  
+          }
+  
+          .resume-select {
+            margin: 16px 0 11px;
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            left: 45px;
+  
+            .online-resume {
+              left: -9px;
+              margin-left: 0;
+              position: relative;
+              cursor: pointer;
+              height: 28px;
+              display: list-item;
+              text-align: -webkit-match-parent;
+            }
+          }
+  
+  
+  
+  
+        }
+      }
+    }
+  
+    .container {
+      width: 1024px;
+      margin: 0 auto;
+      padding-bottom: 118px;
+  
+      .content_l {
+        position: relative;
+        padding-top: 26px;
+        width: 696px;
+        background: url(//www.lgstatic.com/www/static/job-detail/page/index/img/gradient_e624ed8.png) repeat-y;
+        background-position: right;
+        padding-right: 52px;
+        float: left;
+  
+        dl {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          line-height: 22px;
+  
+          .job_detail dt {
+            padding-right: 35px;
+            position: relative;
+          }
+  
+          .job_detail dd {
+            padding: 15px 0 10px;
+            color: #333;
+            word-wrap: break-word;
+  
+            .job-advantage .advantage {
+              font-size: 16px;
+              color: #333;
+              font-weight: 700;
+            }
+  
+            .job-advantage p {
+              margin-top: 13px;
+              color: #333;
+            }
+          }
+        }
+      }
+  
+      .content_r {
+        float: left;
+        width: 245px;
+        margin-left: 31px;
+        margin-top: 45px;
+  
+        .c_feature {
+          li {
+            margin: 10px 0;
+          }
+        }
+  
+        .xs {
+          li {
+            display: flex;
+            padding:(4px 0);
+            border-bottom:1px dashed #999;
+  
+            .zw-l {
+              border:1px solid #eee;
+              margin-right: 5px;
+              img {
+                width: 60px;
+                height: 60px;
+              }
+            }
+            .zw-r{
+              p{
+                margin:0;
+                padding:0;
+              }
+              .zname{
+                font-size: 16px;
+                color:#333;
+              }
+              .sellary{
+                color:#e6775c;
+                font-size: 16px;
+              }
+              .info{
+                color:#999;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

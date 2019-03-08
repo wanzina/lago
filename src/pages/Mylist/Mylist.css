@@ -1,0 +1,11 @@
+.container{
+	width: 1200px;
+	margin: 30px auto 0;
+	padding-bottom:100px ;
+	overflow: hidden;
+	
+}
+.contain_l{
+	float: left;
+	width: 960px;
+}

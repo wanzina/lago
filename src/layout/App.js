@@ -6,7 +6,9 @@ import Mylist from '@/pages/Mylist/Mylist'
 import Myresume from '@/pages/Myresume/Myresume'
 import Xiaoyuan from '@/pages/Xiaoyuan/Xiaoyuan'
 import Yanzhi from '@/pages/Yanzhi/Yanzhi'
+import JobDetail from '@/pages/JobDetail/JobDetail'
 import Header from '@/components/common/Header/Header'
+import Footbar from '@/components/common/Footbar/Footbar'
 
 class App extends Component {
   render() {
@@ -20,8 +22,10 @@ class App extends Component {
             <Route path='/myresume' component={Myresume}  />
             <Route path='/xiaoyuan' component={Xiaoyuan}  />
             <Route path='/yanzhi' component={Yanzhi}  />
+            <Route path='/jobdetail' component={JobDetail} />
             <Redirect path='/' to='/home'/>
           </Switch>
+          <Footbar/>
       </div>
     );
   }

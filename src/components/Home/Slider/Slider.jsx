@@ -1,33 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Carousel } from 'antd';
+import './Slider.css'
 const Slider = (props) => (
-  <>
-    {/* <!--轮播--> */}
-    <div className="home_banner">
-      <div className="swiper-container">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <Link to="/">
-              <img alt="" src="../img/CgotOVuSEg6ATWx_AAUxpwnVuJ0559.PNG" />
-            </Link>
-          </div>
-          <div className="swiper-slide">
-            <Link to="/">
-              <img alt="" src="../img/CgotOVuVJweAAVnhAAnrmIt8GF8554.PNG" />
-            </Link>
-          </div>
-        </div>
-        {/*  <!-- Add Pagination --> */}
-        <div className="swiper-pagination"></div>
-        {/* <!-- Add Arrows --> */}
-        <div className="control">
-          <div className="swiper-button-next"></div>
-          <div className="swiper-button-prev"></div>
-        </div>
+    <>
+        {/* <!--轮播--> */}
 
-      </div>
-    </div>
-  </>
+		<div id="home_banner">
+            <Carousel autoplay dots >
+                <div><img src="/img/CgotOVuSEg6ATWx_AAUxpwnVuJ0559.PNG" /></div>
+                <div><img src="/img/CgotOVuVJweAAVnhAAnrmIt8GF8554.PNG" /></div>
+            </Carousel>
+           {/*  <div className="swiper-container"> */}
+               
+               {/*  <!-- Add Pagination --> */}
+				
+                {/* <!-- Add Arrows --> */}
+				<div className="control">
+                    <div className="swiper-button-next"></div>
+                    <div className="swiper-button-prev"></div>
+                </div>
+
+            {/* </div> */}
+        </div>
+    </>
 )
 
 export default Slider

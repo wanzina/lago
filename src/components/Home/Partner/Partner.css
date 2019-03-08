@@ -1,0 +1,15 @@
+.link_box.show-linkbox{height:33px;}
+.link_box{position: relative;overflow: hidden;}
+.link_box dd{overflow: hidden;}
+.link_box dd a{display:inline-block;color:#555555 ;height: 15px;padding: 8px 18px 8px 0;float: left;white-space: nowrap;}
+.link_box dd a:hover{color: #00B38A;text-decoration: underline;}
+.expansion{position: absolute;display:inline-block;top: 0;right:3px;height: 32px;line-height: 32px;cursor: pointer;color: #999999;}
+.expansion i{display: inline-block;width: 12px;height: 12px;margin-left: 5px;background: url(/img/arrow_down2_eea7e54.png) 0 3px no-repeat;vertical-align: middle;}
+.expansion .i-up{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	vertical-align:0px;
+}

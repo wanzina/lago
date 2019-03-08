@@ -1,0 +1,6 @@
+.recommend_tips{height: 18px;line-height: 18px;margin: 14px 0 18px;}
+.recommend_tips_icon{display:inline-block;width: 18px;height: 18px;background: #e6e6e6;border-radius:9px ;color: white;line-height: 18px;text-align: center;margin-right: 10px;}
+.recommend_tips em{margin-right: 40px;color: #999999;font-style: normal;}
+.tips,.tips a{color: #00B38A;}
+.tips{padding: 0px 12px;cursor: pointer;}
+.re_tips_iknow{border-right:1px solid #D8D8D8;}
